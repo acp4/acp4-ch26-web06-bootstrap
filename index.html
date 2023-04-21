@@ -227,18 +227,20 @@
           <div class="row justify-content-center">
             <div class="col-5 text-center">
               <p id="name">Mi nombre es:</p>
-              <p onclick ="changeColorToRed()">Cambia el color a rojo</p>
             </div>
           </div>
           <!--Botones cambian el color-->
           <div class="cotainer">
             <div class="row">
               <div class="col">
-                <button onclick ="changeColorToRed()" type="button" class="btn btn-danger">Rojo</button>
-
+                <button onclick ="changeColorToRed('red')" type="button" class="btn btn-danger">Rojo</button>
               </div>
-              <div class="col"></div>
-              <div class="col"></div>
+              <div class="col">
+                <button onclick ="changeColorToBlue('blue')" type="button" class="btn btn-primary">Azul</button>
+              </div>
+              <div class="col">
+                <button onclick ="changeColorToGreen('green')" type="button" class="btn btn-success">Verde</button>
+              </div>
             </div>
           </div>
         </div>

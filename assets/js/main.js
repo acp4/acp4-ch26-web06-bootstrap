@@ -1,6 +1,6 @@
 console.log("Hola desde un script externo");
 
-function changeColorToRed(){
+function changeColorTo(color){
     const refName=document.getElementById("name");
-    refName.style.color="red";
+    refName.style.color="color";
 }
