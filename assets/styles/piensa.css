@@ -1,0 +1,25 @@
+body {
+    color:aliceblue;
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(9,17,121,1) 100%);
+    }
+    
+.hide {
+    display: none;
+}
+#Parrafo{
+    text-align: center;
+
+}
+.logo-shuriken{
+    width: 40px;
+    height: 40px;
+
+}
+.content{
+    padding: 15px;
+}
+.edit {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
